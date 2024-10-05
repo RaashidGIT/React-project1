@@ -1,0 +1,17 @@
+/* src/components/navbar.css */
+
+.bg-body-tertiary {
+    background: linear-gradient(to right, #4aa1ff, #003a79); /* Adjust colors for the gradient */
+}
+
+.nav-link {
+    color: white !important; /* Ensure link text is white */
+}
+
+.nav-link:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.form-control {
+    margin-right: 0.5rem; /* Add some space on the right */
+}

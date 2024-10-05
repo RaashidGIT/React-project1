@@ -1,0 +1,32 @@
+/* src/components/Footer.css */
+
+.footer {
+    background: linear-gradient(to bottom, #4aa1ff, #003a79); /* Vertical gradient from light blue to dark blue */
+    color: white; /* Text color */
+    padding: 20px; /* Padding */
+    text-align: center; /* Center align text */
+}
+
+.footer-content {
+    max-width: 800px; /* Max width */
+    margin: 0 auto; /* Center the footer content */
+}
+
+.footer-links {
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+}
+
+.footer-links li {
+    display: inline; /* Inline list items */
+    margin: 0 10px; /* Spacing between links */
+}
+
+.footer-links a {
+    color: white; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+
+.footer-links a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
